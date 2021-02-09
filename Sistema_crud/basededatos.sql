@@ -1,0 +1,12 @@
+CREATE DATABASE bdempresa;
+
+CREATE TABLE tblempleados (
+  intId INT(11) NOT NULL AUTO_INCREMENT,
+  vchNombre VARCHAR(50) DEFAULT NULL,
+  vchApellidoP VARCHAR(50) DEFAULT NULL,
+  vchApellidoM VARCHAR(50) DEFAULT NULL,
+  VchCorreo VARCHAR(50) DEFAULT NULL,
+  VchFoto VARCHAR(250) DEFAULT NULL,
+  PRIMARY KEY (`intId`)
+);
+SELECT * FROM tblempleados
